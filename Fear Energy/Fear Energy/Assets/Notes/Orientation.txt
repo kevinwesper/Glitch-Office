@@ -1,0 +1,11 @@
+I tested the original position and angle of things.
+
+The way the system is set up in the testing room, the south of the playing field is the most regular way of looking. If you sit 
+behind the computer and look at the screen you look in the -Z direction. As you are probably starting from this position, it would 
+be wise to program in this direction. This would differ of course when we actually need to test it for the final assignment, so we 
+should be able to edit it to rotate really quickly, or we can ask Rieneke who will in turn ask in what direction we will be facing.
+
+In the Basic VR scene is a basic setup for camera and controller tracking, so that would work, just copy and paste the thing if you need it.
+
+
+Fixed it, it is now looking towards the north, following the Z axis in a logical order.
